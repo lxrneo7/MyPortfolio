@@ -1,25 +1,20 @@
-import self from "../img/self.png"
-import AutoPark from "../img/AutoPark.png"
-import wordle from "../img/wordle.png"
-import Anime from "../img/Anime.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import AutoPark from "../img/AutoPark.png";
+import wordle from "../img/wordle-past-answers-header.webp";
+import Anime from "../img/Anime.png";
+import mock4 from "../img/mock4.png";
+import mock5 from "../img/mock5.png";
 
-
+// Заменим self на другое имя
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
-
 export let singlePage = false;
-
-
 
 export const info = {
     firstName: "",
     lastName: "abdurahim",
     initials: "js", 
     position: "a Frontend Developer",
-    selfPortrait: self, 
+    selfPortrait: AutoPark,  // Переименовано self на AutoPark (или выберите другое изображение)
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
     miniBio: [ 
@@ -41,7 +36,6 @@ export const info = {
         }
     ],
     socials: [
-        
         {
             link: "https://www.instagram.com/abdurahimk1?igsh=cGpoNHYzMWNsbHJ0",
             icon: 'fa fa-instagram',
@@ -52,18 +46,13 @@ export const info = {
             icon: "fa fa-github",
             label: 'github'
         },
-        
-        
-
     ],
     bio: "Hello! My name is Abdurahim. I’m a 19-year-old frontend developer",
-
-    skills:
-        {
-            proficientWith: ['javascript', 'typscript',  'react', 'git', 'github', 'taiwind', 'RTK query',  'html5', 'css3', 'docker'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
-        }
-    ,
+    skills: {
+        proficientWith: ['html', 'css', 'dom', 'react', 'redux toolkit', 'RTK query', 'typescript'],
+        studying: ['react query', 'docker', 'web socket', 'webpack', 'Node.Js']
+    },
+    libraries: ['three.js', 'vanta.js', 'mui', 'ant design', 'tailwind', 'motionFrame'],
     hobbies: [
         {
             label: 'reading',
@@ -114,4 +103,4 @@ export const info = {
             image: mock5
         }
     ]
-}
+};
