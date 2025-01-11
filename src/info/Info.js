@@ -4,7 +4,6 @@ import Anime from "../img/Anime.png";
 import mock4 from "../img/mock4.png";
 import mock5 from "../img/mock5.png";
 
-// Заменим self на другое имя
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
 export let singlePage = false;
@@ -14,7 +13,7 @@ export const info = {
     lastName: "abdurahim",
     initials: "js", 
     position: "a Frontend Developer",
-    selfPortrait: AutoPark,  // Переименовано self на AutoPark (или выберите другое изображение)
+    selfPortrait: AutoPark,  
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
     miniBio: [ 
@@ -26,10 +25,10 @@ export const info = {
             emoji: '🌎',
             text: 'based in the KG'
         },
-        {
-            emoji: "💼",
-            text: "front-end developer at the Ministry of Economy"
-        },
+        // {
+        //     emoji: "💼",
+        //     text: ""
+        // },
         {
             emoji: "📧",
             text: "Darknes7@bk.ru"
