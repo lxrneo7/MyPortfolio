@@ -97,8 +97,8 @@ export const info = {
         },
         {
             title: "Project 5",
-            live: "",
-            source: "",
+            live: "https://movie-tmdb-psi.vercel.app/",
+            source: "https://github.com/lxrneo7/Movie-TMDB",
             image: mock5
         }
     ]
